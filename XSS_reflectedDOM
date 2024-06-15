@@ -6,3 +6,5 @@
 
 <iframe src="http://localhost/" + document.cookie"></iframe>
 
+<iframe src="javascript:document.cookie;"></iframe>
+
